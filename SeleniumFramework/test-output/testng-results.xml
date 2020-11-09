@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="53768" started-at="2020-11-09T11:08:14Z" finished-at="2020-11-09T11:09:08Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="53768" started-at="2020-11-09T11:08:14Z" finished-at="2020-11-09T11:09:08Z">
+      <class name="testcase.SignUpTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testcase.SignUpTest@3ac3fd8b]" name="setUp" is-config="true" duration-ms="22373" started-at="2020-11-09T16:38:17Z" finished-at="2020-11-09T16:38:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="signupForm(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcase.SignUpTest@3ac3fd8b]" name="signupForm" duration-ms="22500" started-at="2020-11-09T16:38:39Z" data-provider="getData" finished-at="2020-11-09T16:39:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Vijaykumar]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Patil]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[testaccount@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ABC_12345]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[ABC_12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupForm -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcase.SignUpTest@3ac3fd8b]" name="tearDown" is-config="true" duration-ms="5968" started-at="2020-11-09T16:39:02Z" finished-at="2020-11-09T16:39:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcase.SignUpTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
